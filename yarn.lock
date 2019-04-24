@@ -3564,17 +3564,39 @@ indexof@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/indexof/-/indexof-0.0.1.tgz#82dc336d232b9062179d05ab3293a66059fd435d"
 
-inferno-create-element@^5.0.0:
-  version "5.4.0"
-  resolved "https://registry.yarnpkg.com/inferno-create-element/-/inferno-create-element-5.4.0.tgz#a8653e89c6339a24d3419fece201dfd29fa32167"
+inferno-create-element@^7.1.12:
+  version "7.1.12"
+  resolved "https://registry.yarnpkg.com/inferno-create-element/-/inferno-create-element-7.1.12.tgz#414f7dddd6061c6870d6f068abae403f810a20fa"
+  integrity sha512-hLpsicbO7CAbUDJBgmYw/amT1vbH3Q2NNunDtjxOZCb1p6942cOhxzC+US+A9PcY6R6YDDsW1S1QMw8QMHlnvw==
+  dependencies:
+    inferno "7.1.12"
 
 inferno-shared@5.4.0:
   version "5.4.0"
   resolved "https://registry.yarnpkg.com/inferno-shared/-/inferno-shared-5.4.0.tgz#3b903983e253de91512fe825fac280da7818caa1"
 
+inferno-shared@7.1.12:
+  version "7.1.12"
+  resolved "https://registry.yarnpkg.com/inferno-shared/-/inferno-shared-7.1.12.tgz#41e1f845ceed85b9dd5f8e51ce211f0a7ece7b35"
+  integrity sha512-1YuaU0yw4p9EP2FH2pNyW53wynWxZkHFoL5HbI0AauuKHNY4dir5ZwgiAp8lyXp9WmGW5b3CVBeGeiJCHLaZlQ==
+
 inferno-vnode-flags@5.4.0:
   version "5.4.0"
   resolved "https://registry.yarnpkg.com/inferno-vnode-flags/-/inferno-vnode-flags-5.4.0.tgz#7fdcec06a945373c1ed591dd6822581dce501bce"
+
+inferno-vnode-flags@7.1.12:
+  version "7.1.12"
+  resolved "https://registry.yarnpkg.com/inferno-vnode-flags/-/inferno-vnode-flags-7.1.12.tgz#54a84edddc7ca07ec3a7b689b4b64caffe8c2fbf"
+  integrity sha512-caJo+6bZPNrpS02j66CDlm9DGGsQ7GJeewLHfCL13p4UxmNI7Zzz4jK0Xsz0seG7yz8wonWiboQcaku6Yg8YjA==
+
+inferno@7.1.12:
+  version "7.1.12"
+  resolved "https://registry.yarnpkg.com/inferno/-/inferno-7.1.12.tgz#673596f014b28d34478ca176ea4a09efba319560"
+  integrity sha512-uye9syd9evO6iPi/o5WAWf217j9HlJD7AzzLZb3Lj4RSXrxFhKsUnQABngvQ/+M/wLxR8zB9kr6VLSuXXujq3Q==
+  dependencies:
+    inferno-shared "7.1.12"
+    inferno-vnode-flags "7.1.12"
+    opencollective-postinstall "^2.0.2"
 
 inferno@^5.0.0:
   version "5.4.0"
@@ -5213,6 +5235,11 @@ onetime@^2.0.0:
   resolved "https://registry.yarnpkg.com/onetime/-/onetime-2.0.1.tgz#067428230fd67443b2794b22bba528b6867962d4"
   dependencies:
     mimic-fn "^1.0.0"
+
+opencollective-postinstall@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/opencollective-postinstall/-/opencollective-postinstall-2.0.2.tgz#5657f1bede69b6e33a45939b061eb53d3c6c3a89"
+  integrity sha512-pVOEP16TrAO2/fjej1IdOyupJY8KDUM1CvsaScRbw6oddvpQoOfGk4ywha0HKKVAD6RkW4x6Q+tNBwhf3Bgpuw==
 
 opencollective@^1.0.3:
   version "1.0.3"
